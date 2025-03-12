@@ -16,6 +16,7 @@
     /* Font Variable */
     --font-thin : 100;
     --font-md : 500;
+    --font-semi : 600;
     --font-bold : 700;
 
     --font-sm : 1.2rem;
@@ -59,11 +60,11 @@ html {
 body {
   position: relative;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #333;
-  background-color: var(--light-bg);
+  background-color: var(--primary-bg);
   text-rendering: optimizeSpeed;
   width: 100dvw;
   overflow-x: hidden;
+  padding-inline: 2.4rem;
 }
 
 /* Responsive media defaults */
