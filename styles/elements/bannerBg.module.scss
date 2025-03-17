@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personal-icon{
+    position: absolute;
+    top: 0;
+    transform: translateY(-65%) translateX(25%);
+}
