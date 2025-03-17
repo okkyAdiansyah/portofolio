@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.2rem;
+    padding-block: 2.4rem 5.4rem;
+    border-bottom: solid 1px var(--border-color);
+}
+
+.child-container--3-cols{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 8.6rem;
+
+    &.flex-start{
+        align-items: flex-start;
+
+        div{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+    
+            &:first-child{
+                
+                p{
+                    font-size: var(--font-xl);
+                    font-weight: var(--font-thin);
+                    color: var(--accent-font-color);
+                    letter-spacing: var(--font-banner-spacing);
+                }
+            }
+        }
+    }
+    
+    &.flex-end{
+        align-items: flex-end;
+
+        div{
+            width: 100%;
+
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                row-gap: 1.2rem;
+                p{
+                    font-size: var(--font-xxl);
+                    font-weight: var(--font-bold);
+                    color: var(--primary-font-color-light);
+                    line-height: var(--font-paragraph-height);
+                }
+            }
+
+            &:nth-child(3){
+                p{
+                    font-size: var(--font-xxl);
+                    font-weight: var(--font-thin);
+                    color: var(--primary-font-color-light);
+                }
+            }
+        }
+    }
+
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    p{
+        &:first-child{
+            font-size: var(--font-xl);
+            font-weight: var(--font-md);
+            color: var(--secondary-font-color);
+        }
+
+        &:not(:first-child){
+            font-size: var(--font-reguler);
+            font-weight: var(--font-md);
+            color: var(--primary-font-color-light);
+            margin-top: 1.2rem;
+            line-height: var(--font-paragraph-height);
+        }
+    }
+}

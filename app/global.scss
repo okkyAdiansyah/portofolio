@@ -29,7 +29,7 @@
     --font-banner : 9.6rem;
     --font-banner-lg : 20rem;
 
-    --font-banner-spacing : -6%;
+    --font-banner-spacing : .06rem;
     --font-paragraph-height : 2.4rem;
 }
 /* Global Reset */
@@ -59,7 +59,7 @@ html {
 /* Default body styles */
 body {
   position: relative;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-montserrat);
   background-color: var(--primary-bg);
   text-rendering: optimizeSpeed;
   width: 100dvw;
