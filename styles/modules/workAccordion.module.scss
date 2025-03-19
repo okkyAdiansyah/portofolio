@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex: 0 0 22rem;
+    column-gap: 1.2rem;
+    overflow-x: hidden;
+    transition: all linear .3s;
+
+    &.isActive{
+        flex: 0 0 45.2rem;
+    }
+}
+
+.accordion-content{
+    width: 22rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: var(--font-sub-lg);
+    font-weight: var(--font-thin);
+    color: var(--primary-font-color-light);
+}
+
+.subtitle{
+    font-size: var(--font-sm);
+    font-weight: var(--font-thin);
+    color: var(--primary-font-color-light);
+}
+
+.type{
+    text-align: right;
+    font-size: var(--font-xl);
+    font-weight: var(--font-md);
+    color: var(--secondary-font-color);
+}
