@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--border-color);
+    width: 22rem;
+    height: 22rem;
+    cursor: pointer;
+}
